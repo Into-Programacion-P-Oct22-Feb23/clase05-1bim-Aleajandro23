@@ -22,7 +22,7 @@ public class Ejemplo4 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         
-        System.out.println("Ingrese la ciudad");
+        System.out.println("Ingrese la ciudad para el acceso");
         String ciudad = entrada.nextLine(); // Quito
         //F           or          //F         >>>>> F
         if (ciudad.equals("Loja") || ciudad.equals("Machala") || 
